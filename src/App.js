@@ -1,12 +1,11 @@
 import React, { Component } from 'react';
-import logo from './logo.svg';
 import './App.css';
 
 // components
 
-import SearchBar     from './components/Search/Bar';
-import SearchResults from './components/Search/Results';
-import Playlist      from './components/Playlist';
+import SearchBar     from './components/Search/Bar/Bar.js';
+import SearchResults from './components/Search/Results/Results.js';
+import Playlist      from './components/Playlist/Playlist.js';
 
 class App extends Component {
   render() {

@@ -2,6 +2,10 @@ import React, { Component } from 'react';
 import logo from './logo.svg';
 import './App.css';
 
+// components
+
+import Playlist from './components/Playlist'
+
 class App extends Component {
   render() {
     return (

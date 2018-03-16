@@ -4,7 +4,9 @@ import './App.css';
 
 // components
 
-import Playlist from './components/Playlist'
+import SearchBar     from './components/Search/Bar';
+import SearchResults from './components/Search/Results';
+import Playlist      from './components/Playlist';
 
 class App extends Component {
   render() {
@@ -12,10 +14,10 @@ class App extends Component {
       <div className="App">
         <h1>Ja<span className="highlight">mmm</span>ing</h1>
         <div className="App">
-        // Add a SearchBar component
+        <SearchBar />
           <div className="App-playlist">
-          // Add a SearchResults component
-          // Add a Playlist component
+            <SearchResults />
+            <Playlist />
           </div>
         </div>
       </div>
